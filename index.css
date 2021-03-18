@@ -1,0 +1,191 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+   
+    height: 100vh;
+    width: 100%;
+    background-image: url(./breakfast-from-above.jpg);
+    /* border: 1px solid; */
+    background-size: 100% 100%;
+    overflow-y: scroll;
+}
+form{
+    height: 15vh;
+    width: 100%;
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 6vh;
+    width: 80%;
+    outline: none;
+    padding-left:5%;
+    box-shadow: 1px 1px 3px 1px red, -1px -1px 3px 1px blue;
+
+}
+.sub{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: .5em;
+    background-color: red;
+    margin-left: 2%;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main{
+    height: 50vh;
+    width: 70%;
+    /* margin-left:20vw; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: white; */
+    /* border: 2pc solid red; */
+    margin:5% auto;
+    /* opacity: .5; */
+    background-color: lightgray;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 2px 2px 5px 5px black;
+}
+span{
+    color: gray;
+}
+.img1{
+    height: 70%;
+    width: 30%;
+    /* transition-duration: 1s; */
+
+}
+.img1:hover{
+    transform: scale(.9);
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 2px black;
+}
+.datadiv{
+    height: 70%;
+    width: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition-duration: 1s;
+    /* border: 2px solid red; */
+}
+.datadiv:hover{
+    /* border-radius: 100px; */
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: yellow;
+}
+.link{
+    margin-top: -2%;
+}
+.more{
+    padding: .8em 2em;
+    background-color: teal;
+    outline: none;
+    border: none;
+    /* border-radius: 20px; */
+    color: white;
+    transition-duration: 1s;
+}
+.more:hover{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.main1{
+    position: relative;
+    height: auto;
+    width: fit-content;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: white; */
+    border: 2px solid;
+    margin: 3% 5%;
+    /* opacity: .5; */
+    /* border: 1pc solid blue; */
+    background-color: lightgray;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 2px 2px 5px 5px black;
+    padding: 3em 0;
+}
+.total{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 3px solid green; */
+}
+.ingri{
+    height: auto;
+    width: 50%;
+    /* border: 1px solid; */
+    margin: 5% 0;
+    /* border: 3px solid blue; */
+
+}
+.try{
+    padding: auto;
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 20px;
+    /* border: 3px solid red; */
+
+}
+.a{
+    margin-top: 5%;
+}
+.a:hover{
+    cursor: pointer;
+    color: teal;
+}
+.para{
+    padding: 1em 0;
+    margin-top: 5%;
+    transition-duration: 1s;
+
+}
+.para:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+u{
+    font-size: 20px;
+    font-family: 'Aguafina Script', cursive;
+font-family: 'Ballet', cursive;
+}
+.icon{
+    font-size: 30px;
+    position: absolute;
+    top: 5%;
+    left: 90%;
+    z-index: 5;
+    border: none;
+    background-color: black;
+    color: lightgray;
+    padding: .5% 1%;
+    border-radius: 50px;
+}
